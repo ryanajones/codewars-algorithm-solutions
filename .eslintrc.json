@@ -7,7 +7,6 @@
     "no-return-assign": ["error", "except-parens"],
     "no-restricted-syntax": [
       2,
-      "ForInStatement",
       "LabeledStatement",
       "WithStatement"
     ],
@@ -23,11 +22,12 @@
     "no-unused-expressions": [
       2,
       {
-        "allowTaggedTemplates": true
+        "allowTaggedTemplates": true,
+        "allowTernary":true
       }
     ],
     "no-param-reassign": [
-      2,
+      0,
       {
         "props": false
       }
@@ -66,5 +66,9 @@
         "printWidth": 80
       }
     ]
+  },
+  "env": {
+    "browser": true,
+    "node": true
   }
 }
