@@ -1,7 +1,6 @@
 const buildTower = (nFloors) => {
   const tower = [];
   let count = 0;
-  const currentF = nFloors;
   for (let p = 0; p < nFloors; p++) {
     if (count === 0) {
       count += 1;
