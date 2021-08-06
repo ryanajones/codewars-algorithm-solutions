@@ -12,6 +12,7 @@ const bouncing = (h: number, bounce: number, window: number): any => {
       count += 2;
     }
   }
+
   return count;
 };
 
